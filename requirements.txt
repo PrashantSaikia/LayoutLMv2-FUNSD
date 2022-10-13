@@ -1,0 +1,6 @@
+gradio
+Pillow
+numpy
+datasets
+torch
+transformers
