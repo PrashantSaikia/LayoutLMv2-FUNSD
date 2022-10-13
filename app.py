@@ -71,12 +71,11 @@ css = ".output-image, .input-image {height: 40rem !important; width: 100% !impor
 css = ".image-preview {height: auto !important;}"
 
 iface = gr.Interface(fn=process_image, 
-                     inputs=gr.inputs.Image(type="pil"), 
-                     outputs=gr.outputs.Image(type="pil", label="annotated image"),
+                     inputs=gr.components.Image(type="pil"), 
+                     outputs=gr.components.Image(type="pil", label="annotated image"),
                      title=title,
                      description=description,
                      article=article,
                      examples=examples,
-                     css=css,
-                     enable_queue=True)
-iface.launch(debug=True)
+                     css=css)
+iface.launch(debug=True, enable_queue=True)
