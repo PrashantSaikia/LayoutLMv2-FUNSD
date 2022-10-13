@@ -7,6 +7,7 @@ WORKDIR /app
 ADD . /app
 # Install dependencies
 RUN pip install -r requirements.txt
+RUN python -m pip install 'git+https://github.com/facebookresearch/detectron2.git'
 # Expose port 
 EXPOSE 5000
 # Run the application:
