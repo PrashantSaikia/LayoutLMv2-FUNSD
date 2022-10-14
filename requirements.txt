@@ -2,5 +2,7 @@ gradio
 Pillow
 numpy
 datasets
-torch
 transformers
+pyyaml
+pytesseract
+torch
