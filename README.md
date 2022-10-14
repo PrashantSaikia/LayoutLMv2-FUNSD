@@ -16,6 +16,6 @@ Then open your browser and navigate to `http://localhost:7860` to see the app in
 
 ![szGaj](https://user-images.githubusercontent.com/39755678/195825193-8402c411-94e2-4372-9f3f-3b685a4a2909.png)
 
-Select one of the example documents, or one of your own (as an image - PDF functionality being built and will come later), and see the document understanding model do its work by identifying semanticaly which part of the document is the heading, which are the questions and the answers, etc:
+Select one of the example documents, or one of your own (as an image), and see the document understanding model do its work by identifying semanticaly which part of the document is the heading, which are the questions and the answers, etc:
 
 <img width="1152" alt="Screenshot 2022-10-14 at 3 51 47 PM" src="https://user-images.githubusercontent.com/39755678/195825543-49e75c5f-07fd-49cd-9dd6-adf78397a847.png">
