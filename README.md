@@ -3,7 +3,7 @@
 Demo for Microsoft’s LayoutLMv2, a Transformer for state-of-the-art document image understanding tasks. This particular model is fine-tuned on FUNSD, a dataset of manually annotated forms. It annotates the words appearing in the image as QUESTION/ANSWER/HEADER/OTHER. To use it, simply upload an image or use the example image below and click ‘Submit’. Results will show up in a few seconds. If you want to make the output bigger, right-click on it and select ‘Open image in new tab’.
 
 # Usage
-1. Install docker and start Docker Desktop.
+1. Install Docker and start Docker Desktop.
 2. Download/clone this repo: `git clone https://github.com/PrashantSaikia/LayoutLMv2-FUNSD.git`
 3. Build a Docker image of the project: `docker build -t layoutlm-v2 .`
 4. Run the Docker image: `docker run -p 7860:7860 -e GRADIO_SERVER_NAME=0.0.0.0 layoutlm-v2`
