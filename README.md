@@ -6,7 +6,7 @@ Demo for Microsoft’s LayoutLMv2, a Transformer for state-of-the-art document i
 1. Install Docker and start Docker Desktop.
 2. Download/clone this repo: `git clone https://github.com/PrashantSaikia/LayoutLMv2-FUNSD.git`
 3. Build a Docker image of the project: `docker build -t layoutlm-v2 .`
-4. Run the Docker image: `docker run -p 7860:7860 -e GRADIO_SERVER_NAME=0.0.0.0 layoutlm-v2`
+4. Run the Docker image: `docker run -p 8080:8080 layoutlm-v2`
 
 Then wait for the downloads to finish, you'll see something like this:
 
