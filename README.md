@@ -10,11 +10,11 @@ Demo for Microsoft’s LayoutLMv2, a Transformer for state-of-the-art document i
 
 Then wait for the downloads to finish, you'll see something like this:
 
-<img width="569" alt="Screenshot 2022-10-14 at 3 54 20 PM" src="https://user-images.githubusercontent.com/39755678/195824989-0fa22b9e-ea77-4096-8ebc-024be95f6b26.png">
+<img width="569" alt="Screenshot 2022-10-15 at 2 45 04 AM" src="https://user-images.githubusercontent.com/39755678/195945124-caaed898-ff98-4e34-be35-84a89a492065.png">
 
-Then open your browser and navigate to `http://localhost:7860` to see the app in action:
+Then open your browser and navigate to `http://localhost:8080` to see the app in action:
 
-![szGaj](https://user-images.githubusercontent.com/39755678/195825193-8402c411-94e2-4372-9f3f-3b685a4a2909.png)
+<img width="1299" alt="Screenshot 2022-10-15 at 2 45 50 AM" src="https://user-images.githubusercontent.com/39755678/195945251-95a2ec1f-06cc-4cd5-a1aa-bf1d3f8dee54.png">
 
 Select one of the example documents, or one of your own (as an image), and see the document understanding model do its work by identifying semanticaly which part of the document is the heading, which are the questions and the answers, etc:
 
