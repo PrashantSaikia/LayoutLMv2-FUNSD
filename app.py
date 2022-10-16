@@ -78,4 +78,4 @@ iface = gr.Interface(fn=process_image,
                      article=article,
                      examples=examples,
                      css=css)
-iface.launch(debug=True, enable_queue=True, server_name="0.0.0.0", server_port=8080)
+iface.launch(server_name="0.0.0.0", server_port=8080)
