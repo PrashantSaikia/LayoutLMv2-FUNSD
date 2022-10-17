@@ -63,8 +63,8 @@ def process_image(image):
 
 title = "Interactive demo: LayoutLMv2"
 description = "Demo for Microsoft's LayoutLMv2, a Transformer for state-of-the-art document image understanding tasks. This particular model is fine-tuned on FUNSD, a dataset of manually annotated forms. It annotates the words appearing in the image as QUESTION/ANSWER/HEADER/OTHER. To use it, simply upload an image or use the example image below and click 'Submit'. Results will show up in a few seconds. If you want to make the output bigger, right-click on it and select 'Open image in new tab'."
-article = "<p style='text-align: center'><a href='https://arxiv.org/abs/2012.14740' target='_blank'>LayoutLMv2: Multi-modal Pre-training for Visually-Rich Document Understanding</a> | <a href='https://github.com/microsoft/unilm' target='_blank'>Github Repo</a></p>"
-examples =[['document.png']]
+article = "<p style='text-align: center'><a href='https://arxiv.org/abs/2012.14740' target='_blank'>LayoutLMv2: Multi-modal Pre-training for Visually-Rich Document Understanding</a> | <a href='https://github.com/PrashantSaikia/LayoutLMv2-FUNSD' target='_blank'>Github Repo</a></p>"
+examples =[['82092117.png'], ['82200067_0069.png'], ['82250337_0338.png'], ['82251504.png'], ['82252956_2958.png'], ['82253058_3059.png'], ['00040534.png']]
 
 css = ".output-image, .input-image {height: 40rem !important; width: 100% !important;}"
 
