@@ -7,9 +7,9 @@ Deployed on Google Cloud with Kubernetes at http://34.64.201.208:8080
 Demo for Microsoft’s LayoutLMv2, a Transformer for state-of-the-art document image understanding tasks. This particular model is fine-tuned on FUNSD, a dataset of manually annotated forms. It annotates the words appearing in the image as QUESTION/ANSWER/HEADER/OTHER. To use it, simply upload an image or use the example image below and click ‘Submit’. Results will show up in a few seconds. If you want to make the output bigger, right-click on it and select ‘Open image in new tab’.
 
 # Usage
-git clone https://github.com/PrashantSaikia/LayoutLMv2-FUNSD.git
-cd LayoutLMv2-FUNSD
-python app.py
+`git clone https://github.com/PrashantSaikia/LayoutLMv2-FUNSD.git`
+`cd LayoutLMv2-FUNSD`
+`python app.py`
 
 ## 1. Local deployment
 1. Install Docker and start Docker Desktop.
