@@ -37,7 +37,13 @@ Select one of the example documents, or one of your own (as an image), and see t
 5. Push the docker image into the Container Registry: `docker push layoutlm-v2`
 6. Go to 'Kubernetes Engine' in the Google Cloud Console and create a new Kubernetes cluster. Select the location to be one in Asia, like `asia-northeast3` for instance, instead of going ahead with the default `us-central1` as that was causing some pod failure and memory allocation issues (see [this](https://stackoverflow.com/questions/74074912/google-kubernetes-deployed-app-does-not-open-via-the-exposed-ip-address)).
 7. Create a new deployment, select "existing container image", and select the container where you oushed the docker image from step 5 above. Then in the Configuration, give the deployment a suitable name as you wish, leave the other options as default and click Deploy. You might need to wait a few minutes to a few hours for resources to get allocated to the cluster before the deployment is successful and ready.
-8. Expose your deployment and edit the port as 8080 (default is 80)
+8. You may see errors like this:
+
+<img width="752" alt="Screenshot 2022-10-17 at 1 04 55 PM" src="https://user-images.githubusercontent.com/39755678/196116393-e8267ab3-1696-4a83-aa04-0fef62e1a667.png">
+
+Give it a few minutes to a few hours, and they will go away. Google Cloud needs some time to allocate resources to the deployment.
+
+9. Expose your deployment and edit the port as 8080 (default is 80).
 
 You should have the public IP for your deployment now, and if you open the link (which is my case is http://34.64.201.208:8080) you can see the app in action by going to that link:
 
