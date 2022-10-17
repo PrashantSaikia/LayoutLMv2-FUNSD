@@ -32,7 +32,7 @@ Select one of the example documents, or one of your own (as an image), and see t
 ## 2. Deployment on Google Cloud with Kubernetes Engine
 1. Open Google Cloud console, and create a new project
 2. Activate cloud shell and clone this repo
-3. Build a docker image of the project (see `Local deployment` above)
+3. Build a docker image of the project (see step 3 of Local deployment above)
 4. Enable Container Registry in the Google Cloud Console
 5. Push the docker image into the Container Registry: `docker push layoutlm-v2`
 6. Go to 'Kubernetes Engine' in the Google Cloud Console and create a new Kubernetes cluster. Select the location to be one in Asia, like `asia-northeast3` for instance, instead of going ahead with the default `us-central1` as that was causing some pod failure and memory allocation issues (see [this](https://stackoverflow.com/questions/74074912/google-kubernetes-deployed-app-does-not-open-via-the-exposed-ip-address)).
