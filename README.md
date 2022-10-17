@@ -45,8 +45,8 @@ Select one of the example documents, or one of your own (as an image), and see t
 
 Give it a few minutes to a few hours, and they will go away. Google Cloud needs some time to allocate resources to the deployment.
 
-9. Expose your deployment and edit the port as 8080 (default is 80).
-
-You should have the public IP for your deployment now, and if you open the link (which is my case is http://34.64.201.208:8080) you can see the app in action by going to that link:
+9. Expose your deployment and edit the port as 8080 (default is 80). You should have the public IP for your deployment now, and if you aren't sure which link it is, you can also type `kubectl get services` in the console to get the link, and type `kubectl get deployment` to get more details about the deployment.
+ 
+If you open the link (which is my case is http://34.64.201.208:8080), you should be able to see the app in action:
 
 ![1](https://user-images.githubusercontent.com/39755678/196117671-8de4f8fa-7058-4533-9f96-1ff9f88c6298.jpeg)
