@@ -48,4 +48,4 @@ Select one of the example documents, or one of your own (as an image), and see t
  
 If you open the link (which is my case is http://34.146.138.209:8080), you should be able to see the app in action:
 
-![1](https://user-images.githubusercontent.com/39755678/196117671-8de4f8fa-7058-4533-9f96-1ff9f88c6298.jpeg)
+<img width="1440" alt="Screenshot 2022-10-17 at 2 24 57 PM" src="https://user-images.githubusercontent.com/39755678/196134743-7d88cf41-7545-4660-8388-dfc2990e9dda.png">
