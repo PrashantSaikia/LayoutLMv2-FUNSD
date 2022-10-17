@@ -49,4 +49,4 @@ Give it a few minutes to a few hours, and they will go away. Google Cloud needs 
 
 You should have the public IP for your deployment now, and if you open the link (which is my case is http://34.64.201.208:8080) you can see the app in action by going to that link:
 
-![1](https://user-images.githubusercontent.com/39755678/196116059-4b274390-ef14-4a8b-90fc-746c5234fa6c.jpeg)
+![1](https://user-images.githubusercontent.com/39755678/196117671-8de4f8fa-7058-4533-9f96-1ff9f88c6298.jpeg)
