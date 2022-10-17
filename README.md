@@ -1,7 +1,7 @@
 # LayoutLMv2-FUNSD
 
 # Demo: 
-Deployed on Google Cloud with Kubernetes at http://34.64.201.208:8080
+Deployed on Google Cloud with Kubernetes at http://34.146.138.209:8080
 
 # Intro:
 Demo for Microsoft’s LayoutLMv2, a Transformer for state-of-the-art document image understanding tasks. This particular model is fine-tuned on FUNSD, a dataset of manually annotated forms. It annotates the words appearing in the image as QUESTION/ANSWER/HEADER/OTHER. To use it, simply upload an image or use the example image below and click ‘Submit’. Results will show up in a few seconds. If you want to make the output bigger, right-click on it and select ‘Open image in new tab’.
@@ -44,8 +44,8 @@ Select one of the example documents, or one of your own (as an image), and see t
 
 <img width="752" alt="Screenshot 2022-10-17 at 1 04 55 PM" src="https://user-images.githubusercontent.com/39755678/196116393-e8267ab3-1696-4a83-aa04-0fef62e1a667.png">
 
-10. Expose your deployment and edit the port as 8080 (default is 80). You should have the public IP for your deployment now, and if you aren't sure which link it is, you can also type `kubectl get services` in the console to get the link, and type `kubectl get deployment` to get more details about the deployment.
+10. Expose your deployment and edit the port as 8080 (default is 80). Go to `Workloads -> cluster_name -> Exposing Services` to find the public IP for your deployment now. You can also type `kubectl get services` in the console to get the link, and type `kubectl get deployment` to get more details about the deployment.
  
-If you open the link (which is my case is http://34.64.201.208:8080), you should be able to see the app in action:
+If you open the link (which is my case is http://34.146.138.209:8080), you should be able to see the app in action:
 
 ![1](https://user-images.githubusercontent.com/39755678/196117671-8de4f8fa-7058-4533-9f96-1ff9f88c6298.jpeg)
