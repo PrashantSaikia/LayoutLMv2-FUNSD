@@ -8,7 +8,9 @@ Demo for Microsoft’s LayoutLMv2, a Transformer for state-of-the-art document i
 
 # Usage
 `git clone https://github.com/PrashantSaikia/LayoutLMv2-FUNSD.git`
+
 `cd LayoutLMv2-FUNSD`
+
 `python app.py`
 
 ## 1. Local deployment
