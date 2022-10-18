@@ -55,7 +55,7 @@ Alternately, you can use the command line to create a Kubernetes cluster and dep
 ```
 ### After pushing the docker image into Container Registry:
 
-$ gcloud container clusters create layoutlm-v2 --num-nodes=1
+$ gcloud container clusters create layoutlm-v2 --num-nodes=2 --region=asia-northeast1
 Default change: VPC-native is the default mode during cluster creation for versions greater than 1.21.0-gke.1500. To create advanced routes based clusters, please pass the `--no-enable-ip-alias` flag
 Default change: During creation of nodepools or autoscaling configuration changes for cluster versions greater than 1.24.1-gke.800 a default location policy is applied. For Spot and PVM it defaults to ANY, and for all other VM kinds a BALANCED policy is used. To change the default values use the `--location-policy` flag.
 Note: Your Pod address range (`--cluster-ipv4-cidr`) can accommodate at most 1008 node(s).
@@ -64,7 +64,7 @@ Created [https://container.googleapis.com/v1/projects/quantum-feat-365407/zones/
 To inspect the contents of your cluster, go to: https://console.cloud.google.com/kubernetes/workload_/gcloud/us-central1/layoutlm-v2?project=quantum-feat-365407
 kubeconfig entry generated for layoutlm-v2.
 NAME: layoutlm-v2
-LOCATION: us-central1
+LOCATION: asia-northeast1
 MASTER_VERSION: 1.22.12-gke.2300
 MASTER_IP: 35.188.15.142
 MACHINE_TYPE: e2-medium
@@ -79,7 +79,7 @@ $ kubectl expose deployment layoutlm-v2 --type=LoadBalancer --port 80 --target-p
 service/layoutlm-v2 exposed
     
 $ kubectl get service
-NAME          TYPE           CLUSTER-IP   EXTERNAL-IP     PORT(S)        AGE
-kubernetes    ClusterIP      10.4.0.1     <none>          443/TCP        9m38s
-layoutlm-v2   LoadBalancer   10.4.11.33   35.188.15.142   80:31481/TCP   42s
+NAME          TYPE           CLUSTER-IP   EXTERNAL-IP     PORT(S)          AGE
+kubernetes    ClusterIP      10.4.0.1     <none>          443/TCP          9m38s
+layoutlm-v2   LoadBalancer   10.4.11.33   34.146.138.209  8080:31481/TCP   42s
 ```
