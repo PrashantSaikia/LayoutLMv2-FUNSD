@@ -38,7 +38,7 @@ Select one of the example documents, or one of your own (as an image), and see t
 4. Tag the image as a Google Cloud Resource with your Google Cloud Project ID: `docker tag layoutlm-v2 gcr.io/<YOUR_PROJECT_ID>/layoutlm-v2`
 5. Enable Container Registry in the Google Cloud Console
 6. Push the docker image into the Container Registry: `docker push layoutlm-v2`
-7. Go to 'Kubernetes Engine' in the Google Cloud Console and create a new Kubernetes cluster. Select the location to be one in Asia, like `asia-northeast3` for instance, instead of going ahead with the default `us-central1` as that was causing some pod failure and memory allocation issues.
+7. Go to 'Kubernetes Engine' in the Google Cloud Console and create a new Kubernetes cluster in Autopilot mode. Select the location to be one in Asia, like `asia-northeast3` for instance, instead of going ahead with the default `us-central1` as that was causing some pod failure and memory allocation issues.
 8. Create a new deployment, select "existing container image", select the container where you pushed the docker image in step 5 above, and select the image. Then, in the Configuration, give the deployment a suitable name as you wish, leave the other options as default, and click Deploy.
 9. Google Cloud needs some time to allocate resources to the deployment. So, if you see errors like the following, you might need to wait a few minutes to a few hours for resources to get allocated to the cluster before the deployment is successful and ready:
 
