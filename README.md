@@ -83,3 +83,5 @@ NAME          TYPE           CLUSTER-IP   EXTERNAL-IP     PORT(S)          AGE
 kubernetes    ClusterIP      10.4.0.1     <none>          443/TCP          9m38s
 layoutlm-v2   LoadBalancer   10.4.11.33   34.146.138.209  8080:31481/TCP   42s
 ```
+
+<img width="1430" alt="Screenshot 2022-10-18 at 10 51 49 AM" src="https://user-images.githubusercontent.com/39755678/196342289-a1c1aff9-930b-4b58-86ab-86f526d10ce0.png">
