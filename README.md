@@ -1,6 +1,7 @@
 # LayoutLMv2-FUNSD
 
 # Demo: 
+~~Deployed on Google Cloud with Kubernetes at http://34.146.138.209:8080~~ (closed the cluster)
 Deployed [here](https://huggingface.co/spaces/kristada673/layoutlm-v2).
 
 # Intro:
